@@ -18,4 +18,3 @@ sudo apt-get install git -y
 sudo apt-get install git-flow -y
 sudo apt-get install gitg -y
 sudo apt-get install viewnior -y
-sudo apt-get install wine -y
