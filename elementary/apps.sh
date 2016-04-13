@@ -2,6 +2,7 @@ sudo add-apt-repository ppa:ubuntu-wine/ppa -y
 sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
 sudo add-apt-repository ppa:notepadqq-team/notepadqq -y
 sudo add-apt-repository ppa:mc3man/gstffmpeg-keep -y
+sudo add-apt-repository ppa:noobslab/apps -y
 sudo apt-get update
 
 sudo apt-get install gstreamer0.10-ffmpeg -y
@@ -18,3 +19,5 @@ sudo apt-get install git -y
 sudo apt-get install git-flow -y
 sudo apt-get install gitg -y
 sudo apt-get install viewnior -y
+sudo apt-get install mutate -y
+sudo apt-get install screenfetch -y
