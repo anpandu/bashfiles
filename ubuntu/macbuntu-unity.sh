@@ -1,5 +1,6 @@
 sudo add-apt-repository ppa:noobslab/apps -y
 sudo add-apt-repository ppa:noobslab/themes -y
+sudo add-apt-repository ppa:mutate/ppa -y
 sudo apt-get update
 
 sudo apt-get install macbuntu-bscreen-v6 -y

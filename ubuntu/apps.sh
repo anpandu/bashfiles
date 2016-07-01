@@ -13,7 +13,6 @@ sudo apt-get install unity-tweak-tool -y
 sudo apt-get install compiz compizconfig-settings-manager compiz-plugins -y
 sudo apt-get install vlc -y
 sudo apt-get install filezilla -y
-sudo apt-get install clementine -y
 sudo apt-get install unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller -y
 sudo apt-get install qbittorrent -y
 sudo apt-get install ubuntu-restricted-extras -y
@@ -23,6 +22,3 @@ sudo apt-get install notepadqq notepadqq-gtk -y
 sudo apt-get install git -y
 sudo apt-get install git-flow -y
 sudo apt-get install gitg -y
-
-sudo apt-get install viewnior -y
-sudo apt-get install wine -y
