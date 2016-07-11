@@ -3,6 +3,8 @@ sudo add-apt-repository ppa:noobslab/themes -y
 sudo add-apt-repository ppa:upubuntu-com/gtk3themes -y
 sudo add-apt-repository ppa:numix/ppa -y
 sudo add-apt-repository ppa:diesch/testing -y
+sudo add-apt-repository ppa:varlesh-l/papirus-pack -y
+
 sudo apt-get update
 
 sudo apt-get install azure-theme-gtk3 -y
@@ -17,3 +19,4 @@ sudo apt-get install numix-icon-theme-circle -y
 sudo apt-get install macbuntu-icons-v6 -y
 
 sudo apt-get install classicmenu-indicator -y
+sudo apt-get install papirus-gtk-icon-theme -y
