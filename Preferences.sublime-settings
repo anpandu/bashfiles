@@ -1,0 +1,21 @@
+{
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+  "ignored_packages":
+  [
+   "Vintage"
+  ],
+  "theme": "Material-Theme.sublime-theme",
+  "overlay_scroll_bars": "enabled",
+  "line_padding_top": 0,
+  "line_padding_bottom": 1,
+  "always_show_minimap_viewport": true,
+  "indent_guide_options": [ "draw_normal", "draw_active" ],   // Highlight active indent
+  "font_options": [ "gray_antialias" ],                       // For retina Mac
+  "material_theme_small_tab"                : true , // Set small tabs
+  "material_theme_small_statusbar"          : true , // Set small status bar
+  "material_theme_compact_sidebar"          : true , // Set compact side bar
+  "material_theme_compact_panel"            : true , // Set minimal padding for the search panel
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true
+}
+
