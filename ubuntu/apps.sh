@@ -14,7 +14,7 @@ sudo apt-get update
 echo ''
 echo ''
 echo '=== ssh server'
-sudo apt-get install openssh-server
+sudo apt-get install openssh-server -y
 sudo ufw allow 22
 
 
