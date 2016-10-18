@@ -1,3 +1,9 @@
+
+
+echo ''
+echo ''
+echo '=== add repo'
+
 sudo add-apt-repository ppa:ubuntu-wine/ppa -y
 sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
 sudo add-apt-repository ppa:notepadqq-team/notepadqq -y
@@ -5,8 +11,18 @@ sudo add-apt-repository ppa:mc3man/gstffmpeg-keep -y
 sudo add-apt-repository ppa:videolan/stable-daily -y
 sudo apt-get update
 
-sudo apt-get install gstreamer0.10-ffmpeg -y
+echo ''
+echo ''
+echo '=== ssh server'
+sudo apt-get install openssh-server
+sudo ufw allow 22
 
+
+
+echo ''
+echo ''
+echo '=== apps'
+sudo apt-get install gstreamer0.10-ffmpeg -y
 sudo apt-get install acpi -y
 sudo apt-get install sublime-text-installer -y
 sudo apt-get install unity-tweak-tool -y
