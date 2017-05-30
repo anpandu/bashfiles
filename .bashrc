@@ -120,5 +120,9 @@ alias gits="git status"
 alias gitlo="git log --oneline"
 alias gpom="git push origin master"
 alias gpomt="git push origin master --tags"
+alias gsgsc="git stash && git stash clear"
+alias dockerinfo="docker images && echo \"\" && docker ps -a"
+function dockersh() { docker exec -it $1 bash; }
+alias dockersh="dockersh"
 
 alias bb="acpi -t && cat /proc/acpi/bbswitch"
