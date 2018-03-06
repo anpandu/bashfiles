@@ -12,3 +12,6 @@ sudo apt-get install -y docker-ce
 
 echo ">>>  view status"
 sudo systemctl status docker
+
+echo ">>> apply ownership"
+sudo usermod -aG docker ${USER}
