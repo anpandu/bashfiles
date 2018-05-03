@@ -2,6 +2,9 @@ alias gits="git status"
 alias gitlo="git log --oneline"
 alias gpom="git push origin master"
 alias gpomt="git push origin master --tags"
+function gpo() { git push origin $1; }
+function gco() { git checkout $1; }
+function gcom() { git commit -m "$1"; }
 
 alias gcmgpom="git checkout master && git pull origin master"
 alias gcdgpod="git checkout dev && git pull origin dev"
