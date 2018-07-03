@@ -1,7 +1,7 @@
 echo "#=== virtualbox"
-wget https://download.virtualbox.org/virtualbox/5.2.14/virtualbox-5.2_5.2.14-123301~Ubuntu~xenial_amd64.deb
-sudo apt install -y virtualbox-5.2_5.2.14-123301~Ubuntu~xenial_amd64.deb
-rm virtualbox-5.2_5.2.14-123301~Ubuntu~xenial_amd64.deb
+curl -O https://download.virtualbox.org/virtualbox/5.2.14/virtualbox-5.2_5.2.14-123301~Ubuntu~xenial_amd64.deb
+sudo apt install -y ./virtualbox-5.2_5.2.14-123301~Ubuntu~xenial_amd64.deb
+rm ./virtualbox-5.2_5.2.14-123301~Ubuntu~xenial_amd64.deb
 
 echo "#=== kubectl"
 sudo snap install kubectl --classic
