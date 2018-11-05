@@ -1,5 +1,6 @@
 
 
+echo ">>> install other deps"
 sudo apt-get install \
     apt-transport-https \
     ca-certificates \
@@ -20,7 +21,6 @@ echo ">>>  install docker"
 sudo apt-get install -y docker-ce
 sudo groupadd docker
 sudo usermod -aG docker $USER
-
 
 echo ">>>  view status"
 sudo systemctl status docker
