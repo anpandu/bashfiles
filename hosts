@@ -1,0 +1,117 @@
+127.0.0.1	localhost
+::1		localhost
+127.0.1.1	pop-os.localdomain	pop-os
+
+# magnetdl
+172.67.151.118 magnetdl.com
+104.21.80.160 magnetdl.com
+
+# streamable
+151.101.193.63 streamable.com
+151.101.1.63 streamable.com
+151.101.65.63 streamable.com
+151.101.129.63 streamable.com
+195.181.168.47 statics.streamable.com
+54.192.101.65 cdn-cf-east.streamable.com
+54.192.101.71 cdn-cf-east.streamable.com
+54.192.101.17 cdn-cf-east.streamable.com
+54.192.101.53 cdn-cf-east.streamable.com
+3.228.77.132 socket.streamable.com
+54.156.134.115 socket.streamable.com
+54.172.249.17 socket.streamable.com
+
+# danbooru
+104.26.11.39 danbooru.donmai.us
+172.67.70.99 danbooru.donmai.us
+104.26.10.39 danbooru.donmai.us
+104.26.11.39 cdn.donmai.us
+172.67.70.99 cdn.donmai.us
+104.26.10.39 cdn.donmai.us
+
+# gelbooru
+67.202.114.141 gelbooru.com
+172.107.228.194 img3.gelbooru.com
+
+# nhentai
+104.27.194.88 nhentai.net
+104.27.195.88 nhentai.net
+104.27.194.88 static.nhentai.net
+104.27.195.88 static.nhentai.net
+104.27.194.88 t.nhentai.net
+104.27.195.88 t.nhentai.net
+104.27.194.88 i.nhentai.net
+104.27.195.88 i.nhentai.net
+
+# nijie
+160.16.230.19 nijie.info
+160.16.213.212 nijie.info
+
+# rule34
+172.67.68.251 rule34.xxx
+104.26.0.234 rule34.xxx
+104.26.1.234 rule34.xxx
+172.67.68.251 img.rule34.xxx
+104.26.0.234 img.rule34.xxx
+104.26.1.234 img.rule34.xxx
+172.67.68.251 wimg.rule34.xxx 
+104.26.0.234 wimg.rule34.xxx
+104.26.1.234 wimg.rule34.xxx
+172.67.68.251 api-cdn.rule34.xxx 
+104.26.0.234 api-cdn.rule34.xxx
+104.26.1.234 api-cdn.rule34.xxx
+172.67.68.251 api-cdn-mp4.rule34.xxx 
+104.26.0.234 api-cdn-mp4.rule34.xxx
+104.26.1.234 api-cdn-mp4.rule34.xxx
+
+# yandere
+198.98.54.92 yande.re
+198.98.54.92 assets.yande.re
+198.98.54.92 files.yande.re
+
+# reddit
+151.101.1.140 reddit.com
+151.101.65.140 reddit.com
+151.101.129.140 reddit.com
+151.101.193.140 reddit.com
+151.101.1.140 www.reddit.com
+151.101.65.140 www.reddit.com
+151.101.129.140 www.reddit.com
+151.101.193.140 www.reddit.com
+151.101.1.140 old.reddit.com
+151.101.65.140 old.reddit.com
+151.101.129.140 old.reddit.com
+151.101.193.140 old.reddit.com
+151.101.1.140 i.reddit.com
+151.101.65.140 i.reddit.com
+151.101.129.140 i.reddit.com
+151.101.193.140 i.reddit.com
+151.101.1.140 v.reddit.com
+151.101.65.140 v.reddit.com
+151.101.129.140 v.reddit.com
+151.101.193.140 v.reddit.com
+151.101.1.140 out.reddit.com
+151.101.65.140 out.reddit.com
+151.101.129.140 out.reddit.com
+151.101.193.140 out.reddit.com
+151.101.1.140 ssl.reddit.com
+151.101.65.140 ssl.reddit.com
+151.101.129.140 ssl.reddit.com
+151.101.193.140 ssl.reddit.com
+199.232.37.140 ssl.reddit.com
+151.101.129.140 redd.it
+151.101.193.140 redd.it
+151.101.1.140 redd.it
+151.101.65.140 redd.it
+
+# 9anime.to
+104.21.233.127 9anime.to
+104.21.233.128 9anime.to
+
+# nyaa.si
+185.178.208.182 nyaa.si
+
+# redgifs.com
+104.18.5.207 redgifs.com
+104.18.4.207 redgifs.com
+104.18.5.207 www.redgifs.com
+104.18.4.207 www.redgifs.com
