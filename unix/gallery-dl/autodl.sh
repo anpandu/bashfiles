@@ -30,14 +30,34 @@ function get_url_from_dir() {
     result=$dirname;
     result="https://twitter.com/$result/media"
   fi
+  if [ "$1" = "_booru" ]; then
+    result=$dirname;
+  fi
   echo $result
 }
 
 function auto_download() {
-  for subsubdir in $SCRIPT_DIR/$1/*; do
+  subsubdirs=($(ls -rt $SCRIPT_DIR/$1/ | xargs -I{} echo $SCRIPT_DIR/$1/{}));
+  excludes=$(cat $SCRIPT_DIR/$1/excludes.txt) # bug for "(" + ")" chars
+  echo $excludes
+  echo $excludes
+  echo $excludes
+  # echo $excludes
+  for subsubdir in "${subsubdirs[@]}"; do
     url=$(get_url_from_dir $1 $subsubdir)
-    echo "gallery-dl $url"
-    gallery-dl $url
+    subsubdirname=$(echo "$subsubdir" | sed "s/.*\///")
+    # echo $subsubdirname
+    if [[ ! $excludes =~ $subsubdirname ]]; then
+      if [ "$1" = "_booru" ]; then
+        echo "./gdlbooru.sh \"$url\""
+        ./gdlbooru.sh $url
+      else
+        echo "gallery-dl $url"
+        gallery-dl $url
+      fi
+    else
+      echo "Skipping $subsubdirname"
+    fi
   done;
 }
 

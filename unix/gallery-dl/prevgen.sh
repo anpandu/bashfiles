@@ -16,9 +16,12 @@ if [ -z "$ls_result" ]
 fi
 
 function preview_create() {
-  for subsubdir in $SCRIPT_DIR/$1/*; do
+  subsubdirs=($(ls -rt $SCRIPT_DIR/$1/ | xargs -I{} echo $SCRIPT_DIR/$1/{}));
+  for subsubdir in "${subsubdirs[@]}"; do
     # remove previous preview
     path_preview=$(find $subsubdir|grep "__preview" | head -n 1)
+    # echo "$subsubdir"
+    # echo $path_preview
     rm -rf $path_preview
 
     # get latest image file
@@ -30,6 +33,7 @@ function preview_create() {
     # echo "cp $path_latest $path_preview"
     cp $path_latest $path_preview
     # echo "";
+    sleep 1;
   done;
 }
 
