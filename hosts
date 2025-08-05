@@ -2,6 +2,8 @@
 ::1		localhost
 127.0.1.1	pop-os.localdomain	pop-os
 
+168.119.4.235 anisearch.com
+
 # magnetdl
 172.67.151.118 magnetdl.com
 104.21.80.160 magnetdl.com
@@ -41,6 +43,32 @@
 104.27.195.88 t.nhentai.net
 104.27.194.88 i.nhentai.net
 104.27.195.88 i.nhentai.net
+104.27.194.88 i1.nhentai.net
+104.27.195.88 i1.nhentai.net
+104.27.194.88 i3.nhentai.net
+104.27.195.88 i3.nhentai.net
+104.27.194.88 i4.nhentai.net
+104.27.195.88 i4.nhentai.net
+104.27.194.88 i5.nhentai.net
+104.27.195.88 i5.nhentai.net
+104.27.194.88 i9.nhentai.net
+104.27.195.88 i9.nhentai.net
+104.27.194.88 t1.nhentai.net
+104.27.195.88 t1.nhentai.net
+104.27.194.88 t2.nhentai.net
+104.27.195.88 t2.nhentai.net
+104.27.194.88 t3.nhentai.net
+104.27.195.88 t3.nhentai.net
+104.27.194.88 t5.nhentai.net
+104.27.195.88 t5.nhentai.net
+104.27.194.88 t7.nhentai.net
+104.27.195.88 t7.nhentai.net
+104.27.194.88 t9.nhentai.net
+104.27.195.88 t9.nhentai.net
+
+# nekopoi
+104.27.204.89 nekopoi.care
+104.27.203.89 nekopoi.care
 
 # nijie
 160.16.230.19 nijie.info
@@ -115,3 +143,65 @@
 104.18.4.207 redgifs.com
 104.18.5.207 www.redgifs.com
 104.18.4.207 www.redgifs.com
+
+# mangadex
+45.129.229.1 mangadex.org
+45.129.229.2 mangadex.org
+45.129.229.1 www.mangadex.org
+45.129.229.2 www.mangadex.org
+
+# pemersatu
+104.21.16.1 pemersatu.fun
+104.21.32.1 pemersatu.fun
+104.21.96.1 pemersatu.fun
+104.21.48.1 pemersatu.fun
+104.21.64.1 pemersatu.fun
+104.21.80.1 pemersatu.fun
+104.21.112.1 pemersatu.fun
+104.21.16.1 www.pemersatu.fun
+104.21.32.1 www.pemersatu.fun
+104.21.96.1 www.pemersatu.fun
+104.21.48.1 www.pemersatu.fun
+104.21.64.1 www.pemersatu.fun
+104.21.80.1 www.pemersatu.fun
+104.21.112.1 www.pemersatu.fun
+104.21.16.1 pemersatu.org
+104.21.32.1 pemersatu.org
+104.21.96.1 pemersatu.org
+104.21.48.1 pemersatu.org
+104.21.64.1 pemersatu.org
+104.21.80.1 pemersatu.org
+104.21.112.1 pemersatu.org
+104.21.16.1 www.pemersatu.org
+104.21.32.1 www.pemersatu.org
+104.21.96.1 www.pemersatu.org
+104.21.48.1 www.pemersatu.org
+104.21.64.1 www.pemersatu.org
+104.21.80.1 www.pemersatu.org
+104.21.112.1 www.pemersatu.org
+104.21.16.1 video.pemersatu.org
+104.21.32.1 video.pemersatu.org
+104.21.96.1 video.pemersatu.org
+104.21.48.1 video.pemersatu.org
+104.21.64.1 video.pemersatu.org
+104.21.80.1 video.pemersatu.org
+104.21.112.1 video.pemersatu.org
+
+# kiryuu.id
+172.67.73.235 kiryuu.id
+104.26.1.67 kiryuu.id
+104.26.0.67 kiryuu.id
+
+# pemersatu
+104.21.86.91 pemersatudotfun.com
+172.67.217.102 pemersatudotfun.com
+104.21.86.91 www.pemersatudotfun.com
+172.67.217.102 www.pemersatudotfun.com
+104.21.86.91 pemersatu.org
+172.67.217.102 www.pemersatu.org
+104.21.86.91 video.pemersatu.org
+172.67.217.102 www.video.pemersatu.org
+
+# ds2play.com
+162.19.86.186 ds2play.com
+162.19.86.186 www.ds2play.com
